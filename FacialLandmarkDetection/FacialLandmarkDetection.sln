@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FacialLandmarkDetection", "FacialLandmarkDetection\FacialLandmarkDetection.vcxproj", "{17407990-F1D8-4CF8-8821-4E3DE9EA7F12}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HeadPose", "HeadPose\HeadPose.vcxproj", "{94E8D430-AF0F-445F-86D6-B0927BFE7331}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{17407990-F1D8-4CF8-8821-4E3DE9EA7F12}.Release|x64.Build.0 = Release|x64
 		{17407990-F1D8-4CF8-8821-4E3DE9EA7F12}.Release|x86.ActiveCfg = Release|Win32
 		{17407990-F1D8-4CF8-8821-4E3DE9EA7F12}.Release|x86.Build.0 = Release|Win32
+		{94E8D430-AF0F-445F-86D6-B0927BFE7331}.Debug|x64.ActiveCfg = Debug|x64
+		{94E8D430-AF0F-445F-86D6-B0927BFE7331}.Debug|x64.Build.0 = Debug|x64
+		{94E8D430-AF0F-445F-86D6-B0927BFE7331}.Debug|x86.ActiveCfg = Debug|Win32
+		{94E8D430-AF0F-445F-86D6-B0927BFE7331}.Debug|x86.Build.0 = Debug|Win32
+		{94E8D430-AF0F-445F-86D6-B0927BFE7331}.Release|x64.ActiveCfg = Release|x64
+		{94E8D430-AF0F-445F-86D6-B0927BFE7331}.Release|x64.Build.0 = Release|x64
+		{94E8D430-AF0F-445F-86D6-B0927BFE7331}.Release|x86.ActiveCfg = Release|Win32
+		{94E8D430-AF0F-445F-86D6-B0927BFE7331}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
