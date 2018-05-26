@@ -13,7 +13,7 @@ using namespace cv::face;
 int main()
 {
 	// Load Face Detector
-	CascadeClassifier faceDetector("E:/opencv/data/haarcascades/haarcascade_frontalface_alt2.xml");
+	CascadeClassifier faceDetector("D:/opencv/data/haarcascades/haarcascade_frontalface_alt2.xml");
 
 	// Create an instance of Facemark
 	Ptr<Facemark> facemark = FacemarkLBF::create();
@@ -22,7 +22,8 @@ int main()
 	facemark->loadModel("lbfmodel.yaml");
 
 	// Set up webcam for video capture
-	VideoCapture cam("rtmp://live.hkstv.hk.lxdns.com/live/hks");
+	//VideoCapture cam("rtmp://live.hkstv.hk.lxdns.com/live/hks");
+	VideoCapture cam(0);
 
 	// Variable to store a video frame and its grayscale 
 	Mat frame, gray;
