@@ -65,28 +65,7 @@ public:
 
 int main()
 {
-	Mat image = imread("2.jpg");
-
-	Mat result;
-	cvtColor(image, result, COLOR_BGR2GRAY);
-	//应用Canny算法  
-	Mat contours;
-	Canny(result,   //灰度图  
-		contours,   //输出轮廓  
-		125,    //低阈值  
-		350);   //高阈值  
-
-				//创建LineFinder实例  
-	LineFinder finder;
-	//设置概率Hough参数  
-	finder.setLineLengthAndGap(100, 20);
-	finder.setMinVote(80);
-	//检测并绘制直线  
-	vector<Vec4i>lines = finder.findLines(contours);
-	finder.drawDetectedLines(image);
-	imshow("Detected Lines with HoughP", image);
-	waitKey(0);
-	waitKey(10000);
+	
 	system("pause");
 	return 0;
 }
