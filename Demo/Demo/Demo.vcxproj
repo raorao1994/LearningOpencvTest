@@ -144,6 +144,9 @@
   <ItemGroup>
     <Text Include="ReadMe.txt" />
     <Text Include="Text.txt" />
+    <Text Include="源码1.txt" />
+    <Text Include="源码2.txt" />
+    <Text Include="源码三直线.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h" />
